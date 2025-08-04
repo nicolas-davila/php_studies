@@ -42,7 +42,21 @@
 
     echo "Igualdade das idades (v ou f): " . ($idade == $outraIdade ? "Verdadeiro" : "Falso") . "<br>"; // Neste caso cria um "if" com o "?", sendo verdadeiro ou falso, separado pelo ":"
 
-    echo "Idêntico: " . ($idade === $nome? "verdadeiro" : "Falso") . "<br>"; // O "===" Verifica se é idêntico, no caso se possuem as mesmas "tipagens"
+    echo "Idêntico: " . ($idade === $nome? "verdadeiro" : "Falso") . "<br>"; // O "===" Verifica se é idêntico, no caso se possuem as mesmas "tipagens".
 
+    echo "Diferente: " . ($idade != $outraIdade ? "Verdadeiro" : "Falso") . "<br>"; // O "!=" Verifica se são diferentes
 
+    // Operadores lógicos
+
+    //&& -> AND -> Se duas condições são verdadeiras
+    //|| -> OR -> Se uma das das condições for verdadeira
+    // ! -> NOT -> Inverte o boolean
+
+    $temCarteira = false;
+
+    //true E !false -> true
+    echo "Deve tirar carteira? " . (($idade > 18 && !$temCarteira ? "Sim" : "Não")) . "<br>";
+
+    //true OU false
+    echo "É maior de idade? " . (($idade > 18 || !$temCarteira ? "Sim": "Não")) . "<br>";
 ?>
