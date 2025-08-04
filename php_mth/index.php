@@ -28,15 +28,21 @@
 
     $frutas[] = "Abacaxi"; // adcionar elemento
 
-    echo "A nova fruta adicionada é: $frutas[3]";
+    echo "A nova fruta adicionada é: $frutas[3] <br>";
     
     // Tirar elementos
 
     unset($frutas[1]);
 
-    echo "$frutas[1]";
-
     // Operadores "==", "===", "!="
 
-    
+    $outraIdade = 20;
+
+    echo "Igualdade de idades: " . ($idade == $outraIdade) . "<br>"; /* Aqui compara se os valores das variáveis são iguais. No caso vai retornar 1 porque tem que trazer uma string (no caso 1) e vira boolean */
+
+    echo "Igualdade das idades (v ou f): " . ($idade == $outraIdade ? "Verdadeiro" : "Falso") . "<br>"; // Neste caso cria um "if" com o "?", sendo verdadeiro ou falso, separado pelo ":"
+
+    echo "Idêntico: " . ($idade === $nome? "verdadeiro" : "Falso") . "<br>"; // O "===" Verifica se é idêntico, no caso se possuem as mesmas "tipagens"
+
+
 ?>
