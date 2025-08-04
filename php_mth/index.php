@@ -16,5 +16,17 @@
     $idadeSomada = $idade + 5;
 
     echo "Minha idade é $idade <br>";
-    echo "minha idade somada é $idadeSomada";
+    echo "minha idade somada é $idadeSomada <br><br>";
+
+    // Criando arrays
+
+    $frutas = ["Maça", "Banana", "Uva"];
+
+    echo "Primeira fruta da minha array é: $frutas[0]<br>";
+
+    //Adicionando frutas no array
+
+    $frutas[] = "Abacaxi"; // adcionar elemento
+
+    echo "A nova fruta adicionada é: $frutas[3]";
 ?>
