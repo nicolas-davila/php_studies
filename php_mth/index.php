@@ -29,4 +29,14 @@
     $frutas[] = "Abacaxi"; // adcionar elemento
 
     echo "A nova fruta adicionada é: $frutas[3]";
+    
+    // Tirar elementos
+
+    unset($frutas[1]);
+
+    echo "$frutas[1]";
+
+    // Operadores "==", "===", "!="
+
+    
 ?>
