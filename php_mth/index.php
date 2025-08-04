@@ -59,4 +59,17 @@
 
     //true OU false
     echo "É maior de idade? " . (($idade > 18 || !$temCarteira ? "Sim": "Não")) . "<br>";
+
+    ///Operador de atribuição
+
+    $saldo = 100;
+
+    $saldo += $saldo; // Soma o saldo com 100, retornando 200 por exemplo
+    echo "Saldo somado: $saldo <br>";
+
+    $saldo *= 100;
+    echo "Saldo multiplicado: $saldo <br>";
+
+    $saldo -= 100;
+    echo "Saldo subtraído: $saldo <br>";
 ?>
