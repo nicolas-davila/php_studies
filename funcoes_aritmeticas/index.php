@@ -38,6 +38,4 @@
     $raiz = sqrt(16);
     echo "A raiz quadrada de 16 é: $raiz <br>";
 
-    $valor = "2" + "2";
-    echo "O valor da soma de 2 + 2 é: $valor <br>";
 ?>
