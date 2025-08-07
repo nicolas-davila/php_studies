@@ -27,4 +27,8 @@
 
     echo "Maior valor é: $maior <br>";
     echo "Menor valor é: $menor <br>";
+
+    //pi retorna o valor de pi
+    $pi = M_PI; // M_PI é uma constante que representa o valor de pi mas pode ser usado diretamente como pi()
+    echo "O valor de pi é: $pi <br>";
 ?>
