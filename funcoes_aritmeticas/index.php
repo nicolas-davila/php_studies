@@ -31,4 +31,13 @@
     //pi retorna o valor de pi
     $pi = M_PI; // M_PI é uma constante que representa o valor de pi mas pode ser usado diretamente como pi()
     echo "O valor de pi é: $pi <br>";
+
+    //sin(), cos() e tan() calculam o seno, cosseno e tangente de um ângulo em radianos
+
+    //sqrt() calcula a raiz quadrada de um número
+    $raiz = sqrt(16);
+    echo "A raiz quadrada de 16 é: $raiz <br>";
+
+    $valor = "2" + "2";
+    echo "O valor da soma de 2 + 2 é: $valor <br>";
 ?>
